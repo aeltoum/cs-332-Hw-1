@@ -104,16 +104,16 @@ int main() {
     printf("[1,3,5] : "); printArray(result, 3);
 
     printf("\n=== perfectSquare ===\n");
-    printf("n=16 -> %s\n", perfectSquare(16) ? "True" : "False");
-    printf("n=15 -> %s\n", perfectSquare(15) ? "True" : "False");
-    printf("n=25 -> %s\n", perfectSquare(25) ? "True" : "False");
-    printf("n=36 -> %s\n", perfectSquare(36) ? "True" : "False");
+    printf("n=16 : %s\n", perfectSquare(16) ? "True" : "False");
+    printf("n=15 : %s\n", perfectSquare(15) ? "True" : "False");
+    printf("n=25 : %s\n", perfectSquare(25) ? "True" : "False");
+    printf("n=36 : %s\n", perfectSquare(36) ? "True" : "False");
 
     printf("\n=== countVowels ===\n");
-    printf("\"Hello World\" -> %d\n", countVowels("Hello World"));
-    printf("\"UAB CS\"      -> %d\n", countVowels("UAB CS"));
-    printf("\"Python\"      -> %d\n", countVowels("Python"));
-    printf("\"aeiou\"       -> %d\n", countVowels("aeiou"));
+    printf("\"Hello World\" : %d\n", countVowels("Hello World"));
+    printf("\"UAB CS\"      : %d\n", countVowels("UAB CS"));
+    printf("\"Python\"      : %d\n", countVowels("Python"));
+    printf("\"aeiou\"       : %d\n", countVowels("aeiou"));
 
     return 0;
 }
